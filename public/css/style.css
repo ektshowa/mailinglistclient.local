@@ -1,0 +1,44 @@
+.room {
+	width: 200px;
+	height: 150px;
+	background-color: #309970;
+	color: white;
+	margin: 10px;
+}
+
+.room h1 {
+	font-size: 16px;
+}
+
+.room a {
+	color: white;
+}
+
+.details {
+	width: 240px;
+	margin: 10px;
+	background-color: blue;
+	color: white;
+	float: left;
+}
+
+.selected {
+	border: 2px #01FF70 solid;
+}
+
+#rooms {
+	width: 720px;
+	float: left;
+}
+
+#overview {
+	width: 200px;
+	float: left;
+}
+
+#roomDetails {
+	width: 400px;
+	border: 3px solid black;
+	float: right;
+	padding: 20px;
+}

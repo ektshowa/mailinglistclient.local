@@ -1,0 +1,5 @@
+var mailingListApp = mailingListApp || {};
+
+$(function() {
+	
+});

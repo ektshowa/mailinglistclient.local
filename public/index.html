@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Online Hotel Room Booking</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!-- scripts -->
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>-->
+	
+	<script>
+	    /*
+		var Room = new ebooking.Room();
+				var data = ebooking.data;
+			   // var Rooms = new ebooking.Rooms(data);
+				var ebookingObject = {Room: Room, Rooms: Rooms};
+				$(document).ready(function() {
+					console.log(Backbone);	
+					return ebookingObject;
+																  //{rooms: rooms, RoomView: RoomView };
+				});*/
+		
+	</script> 
+	<script type="text/javascript">
+ 			/*jslint	
+ 			 * 	browser	: true, continue  : true,
+ 			 *  devel   : true, indent	  : 2,
+ 			 *  newcap  : true, maxerr    : 50,
+ 			 *  regexp  : true, nomen     : true,
+ 			 *  plusplus: true, sloppy    : true,
+ 			 *  vars    : true, white     : true
+ 			 */
+ 			/*global jQuery, Backbone*/
+ 		</script>
+</head>
+<body>
+	<a href="/">Home</a>
+	<div id="roomsList">
+		
+	</div>
+	<!--<section id="rooms">
+		<article class="room selected">
+			<h1>Room Category 1</h1>
+		</article>
+		<article class="room">
+			<h1>Room category 2</h1>
+		</article>
+		<article class="room">
+			<h1>Room category 3</h1>
+		</article>
+	</section>
+	<nav id="controls">
+		<a href="#" class="previous" data-action="previous">Previous</a> |
+		<a href="#" class="next" data-action="next">Next</a>
+	</nav>-->
+	<!--<script src="js/jquery.js"></script>
+    <!--<script src="js/json2.js"></script>
+    <script src="js/underscore-min.js"></script>
+    <script src="js/backbone-min.js"></script>-->
+    <script type="text/template" id="room-item-template">
+    	<h1><%= hotelName %></h1>
+		<h1><%= roomCategory %><hr></h1><br>
+		<p><%= price %></p>
+	</script>
+	<script id="loginNavbar" type="text/x-handlebars-template">
+		{{#if session }}
+		    <a href="#" class="logout">Logout</a>
+		{{else}}
+		    <a href="#" class="login">Login</a> | <a href="#" class="Register">Register</a>
+		{{/if}}
+	</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+    <!--<script src="js/backbone.obscura/backbone.obscura.js"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.obscura/0.1.6/backbone.obscura.min.js"></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
+    <script src="js/EBooking/models/room.js"></script>
+	<script src="js/EBooking/collections/rooms.js"></script>
+	<script src="js/EBooking/views/room.js"></script>
+	<script src="js/EBooking/views/roomDetails.js"></script>
+	<script src="js/EBooking/views/choseRoom.js"></script>
+	<script src="js/EBooking/views/roomsList.js"></script>
+	<script src="js/EBooking/views/controls.js"></script>
+	<script src="js/EBooking/views/layout.js"></script>
+	<script src="js/EBooking/routers/rooms.js"></script>
+	<script src="js/EBooking/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+var Backbone = require('backbone');
+var $ = require('jquery');
+Backbone.$ = $;
+var Rooms = require('collections/rooms');
+var data = require('collections/rooms.json');
+var rooms = new Rooms(data);
+var RoomView = require('views/room');
+//Monitor = require('./monitor');
+//monitor = new Monitor(rooms);
+module.exports = {rooms: rooms, RoomView: RoomView };
+//module.exports = function() { return Backbone };
